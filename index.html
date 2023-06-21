@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Guessing Game</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Number Guessing Game</h1>
+    <label for="nameInput">Enter your name:</label>
+    <input type="text" id="nameInput">
+    <button id="enterButton">Enter</button>
+    <br>
+    <p>Guess a number between 1 and 100:</p>
+    <input type="number" id="guessInput">
+    <button id="guessButton">Guess</button>
+    <p id="message"></p>
+    <p id="counter"></p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
